@@ -33,21 +33,21 @@
 // console.log(ageCaroline, agePhilippe);
 
 
-const markHeight = 1.69;
-const markWeight = 78;
-const johnHeight = 1.95;
-const johnWeight = 92;
+// const markHeight = 1.69;
+// const markWeight = 78;
+// const johnHeight = 1.95;
+// const johnWeight = 92;
 
-const markBMI = (markWeight / markHeight ** 2).toFixed(2);
-const johnBMI = (johnWeight / johnHeight ** 2).toFixed(2);
+// const markBMI = (markWeight / markHeight ** 2).toFixed(2);
+// const johnBMI = (johnWeight / johnHeight ** 2).toFixed(2);
 
-const markHigherBMI = markBMI > johnBMI;
+// const markHigherBMI = markBMI > johnBMI;
 
-if (markBMI > johnBMI) {
-    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
-} else {
-    console.log(`John's (${johnBMI}) is higher than Mark's BMI (${markBMI})!`)
-}
+// if (markBMI > johnBMI) {
+//     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
+// } else {
+//     console.log(`John's (${johnBMI}) is higher than Mark's BMI (${markBMI})!`)
+// }
 
 
 // const age = 15;
@@ -69,3 +69,20 @@ if (markBMI > johnBMI) {
 // } else {
 //     century = 21;
 // }
+
+
+// const scoreDolphins = (88 + 91 + 110) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log('Dolphins win the trophy!');
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log('Koalas win the trophy!');
+// } else if (scoreDolphins === scoreKoalas) {
+//     console.log('It a draw!');
+// }
+
+const bill = 20;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+
+console.log(`The bill was ${bill}, The tip was ${tip}, and the total value is ${bill + tip}`);
